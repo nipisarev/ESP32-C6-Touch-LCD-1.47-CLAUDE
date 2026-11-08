@@ -172,7 +172,7 @@ flowchart LR
   BTN --> PLAT
   NVS --- PLAT
   PLAT --> LOOP --> APP --> IN --> SC --> ART --> GFX
-  ENG -. "compiled unchanged" .-> HOST
+  ENG -.->|compiled unchanged| HOST
 ```
 
 ---
